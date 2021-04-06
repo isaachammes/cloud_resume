@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Isaac Hammes - Resume</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" type="text/css"/>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" type="text/css"/>
+			<script type="text/javascript" src="counter.js" defer></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="sidebar">
+				<p id="name">Isaac Hammes<br></p>
+				<p><span id="description">A career changing professional who graduated with a BS in Applied Computer Science last December and has 5+ years of experience in nuclear power plant operations and maintenance and 2+ years of experience in manufacturing plant services. Committed to continuing to learn and contributing to a team. Thrives in fast-paced, collaborative, and diverse environments.</span></p>
+				<hr width="100%">
+				<div id="skills">
+					<p style="display:inline;">Skills</p><br>
+					<p id="skill-stronger">Python</p>
+					<p id="skill-stronger">SQL</p>
+					<p id="skill">Linux</p>
+					<p id="skill-stronger">AWS</p>
+					<p id="skill">GCP</p>
+					<p id="skill-stronger">Data Structures</p>
+					<p id="skill">Docker</p>
+					<p id="skill">Git</p>
+					<p id="skill">Agile</p>
+					<p id="skill-stronger">Algorithms</p>
+					<p id="skill">Kubernetes</p>
+					<p id="skill-stronger">Pandas</p>
+					<p id="skill-stronger">Numpy</p>
+				</div>
+				<hr width="100%">
+				<div id="sidepanel-section-title">Certifications<br>
+					<a href="https://www.youracclaim.com/badges/cc5018c9-0f6a-4dbf-9b43-6b02d1949be6" class="link" target="_blank">
+						<img id="cert-thumbnail" src="AWS-SolArchitect-Associate.png" alt="AWS Certified Solutions Architect Associate">
+					</a>
+				</div>
+				<hr width="100%">
+				<div id="sidepanel-section-title">Reach me here<br>
+					<a href="#" class="cryptedmail"
+						data-name="Isaac"
+						data-surname="Hammes"
+						data-domain="gmail"
+						data-tld="com"
+						onclick="window.location.href = 'mailto:' + this.dataset.name + this.dataset.surname + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+					</a>
+				</div>
+				<div id="sidepanel-section-title">
+					<a href="https://github.com/isaachammes" class="link" target="_blank">
+						<img id="social-thumbnail" src="github.png" alt="GitHub">
+					</a>
+				</div>
+			</div>
+			<div id="info-pages">
+				<div class="page">
+					<p>&nbsp;&nbsp;&nbsp;Work experience</p>
+					<ul>
+						<p class="tag">AIMM Services<br><span>Industrial Service Technician | <span>2018-present</span></span></p>
+						<ul>
+							<li>Developed work process for infrared thermography surveys of electrical systems at customer sites to detect electrical issues and created detailed reports/recommendations. A high level of quality and great customer service lead to repeat business from almost all new customers.</li>
+							<li>Collected data to assess manufacturing plants on their current status to help form a path for modernization and to establish proper inventories of industrial automation spare parts.</li>
+							<br>
+						</ul>
+						<p class="tag">United States Navy<br><span>Nuclear Power Plant Mechanic/Operator | <span>2012-2018</span></span></p>
+						<ul>
+							<li>Achieved the highest level of material standards by performing over 4000 hours of maintenance items and received an above average on over 50 maintenance audits.</li>
+							<li>Chosen to stand watch during the Reactor Safeguards Exam and Operational Reactor Safeguards Exam due to high level of knowledge and operation ability.</li>
+							<li>Decreased the number of material deficiencies by 30% while managing the material condition assessment program for #2 reactor plant.</li>
+							<br>
+						</ul>
+					</ul>
+				</div>
+				<div class="page">
+					<p>&nbsp;&nbsp;&nbsp;Education</p>
+					<ul>
+						<p class="tag">University of Illinois Urbana-Champaign<br><span>Master of Computer Science | <span>2021-present</span> | <span>GPA: N/A</span></span></p>
+						<p class="tag">University of Colorado Boulder<br><span>Bachelor of Science in Applied Computer Science | <span>2020</span> | <span>GPA: 3.7</span></span></p>
+						<p class="tag">Excelsior College<br><span>Bachelor of Science in Nuclear Engineering Technology | <span>2018</span> | <span>GPA: 3.3</span></span></p>
+						<p class="tag">This resume<br><span>inspired by <a href="https://cloudresumechallenge.dev" target="_blank" class="link">cloudresumechallenge.dev</a></span></p>
+						<ul>
+							<li>Hosted on AWS S3 with CloudFront</li>
+							<li>Code versioned on <a href="https://github.com/isaachammes/cloud_resume" target="_blank" class="link">my github</a></li>
+							<li>Automatic deployment by AWS CodePipeline</li>
+							<li>Javascript visitor counter</li>
+							<li>API Gateway, Lambda, and DynamoDB setup for the visitor counter</li>
+							<li>Cloudflare for caching and DNS challenge</li>
+						</ul>
+					</ul>
+				</ul>
+				</div>
+				<p class="counter">This page has been visited <a id="count"></a> times.</p>
+			</div>
+		</div>
+	</body>
+</html>
